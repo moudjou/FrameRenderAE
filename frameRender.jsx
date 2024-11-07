@@ -1,9 +1,6 @@
 function renderCurrentFrameUI(thisObj) {
     var panel = (thisObj instanceof Panel) ? thisObj : new Window("palette", "Render Current Frame" );
 
-    
-   
-
     var renderButton = panel.add("button", undefined, "Render Frame as PNG");
 
     function renderCurrentFrameAsPNG() {
